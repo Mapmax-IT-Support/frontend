@@ -1,0 +1,68 @@
+@import 'variables.scss';
+
+.transportationPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.5em;
+    flex: 1;
+    background-color: $darkBg;
+
+    h1 {
+        color: whitesmoke;
+        margin-bottom: 1em;
+    }
+}
+
+
+.transportationContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+@media (min-width: 880px) {
+    .transportationContainer {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }   
+}
+
+.subwayMapContainer {
+    display: flex;
+}
+
+.subwayTableContainer {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+} 
+
+#subwaysTable {
+   margin-left: 1.5em;
+}
+
+// @media (min-width: $md-pt) {
+//     .subwayTableContainer {
+//         display: flex;
+//         flex: 1;
+//         padding: 1em;
+//         overflow-x: auto;
+//     }
+// }
+
+// @media (max-width: $md-pt) {
+//     .subwayTableContainer {
+//         display: flex;
+//         flex: 1;
+//         padding: 1em 0 1em 0;
+//         max-width: $md-pt;
+//     }
+// }
+

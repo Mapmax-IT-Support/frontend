@@ -1,0 +1,42 @@
+@import 'variables.scss';
+
+.shareModalContainer {
+    z-index: 9999;
+    top: 40%;
+    position: fixed;
+    background-color: rgb(20, 110, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 4px;
+    border: 2px solid rgb(9, 69, 82);
+    border-left: none;
+    padding: 12px 8px;
+    cursor: pointer;
+}
+
+.shareText {
+    flex: 1;
+    padding-left: 8px;
+    color: white;
+} 
+
+.shareButtonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shareModalExit {
+    position: relative;
+    bottom: 20px;
+    left: 95%;
+}

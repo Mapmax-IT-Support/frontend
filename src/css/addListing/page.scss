@@ -1,0 +1,178 @@
+@import '../variables.scss';
+
+.addListingPage {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: $darkBg;
+    align-items: center;
+}
+
+.bannerContainer {
+    width: 80%;
+    height: 10%;
+    background-color: rgb(75,75,72);
+}
+
+.bannerHeader {
+    width: 100%;
+    height: 10%;
+    background-color: $darkBg;
+    opacity: 0.7;
+    flex-direction: column;
+    
+}
+
+.bannerImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(1, 1, 1, 0.7);
+    width: 100%;
+    height: 200px;
+    background-image: url('https://blog-www.pods.com/wp-content/uploads/2019/04/MG_1_1_New_York_City-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bannerText {
+    color: whitesmoke;
+    width: 100%;
+    height: 10%;
+    flex-direction: column;
+    text-shadow: -1px -1px 10;
+}
+
+.toolbarContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.formPageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+
+.listingSearchBar {
+    flex: 3;
+    width: 80%;
+    max-width: 600px;
+}
+
+.selectLocationHeader {
+    flex: 1;
+    
+}
+
+@media (max-width: $md-pt) {
+    .toolbarContainer {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .formPageContainer {
+        width: 100%;
+    }
+
+    .bannerContainer {
+        width: 100%;
+    }
+}
+
+.formPage {
+    display: 'flex';
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+
+    span {
+        color: red;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    p {
+
+        text-align: left;
+    }
+}
+
+.nextButton {
+    background-color: '#00d4ff';
+    font-weight: bold;
+    align-self: center;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+
+.saveButton {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 0.5em;
+    cursor: pointer;
+
+    span {
+        margin-right: .5em;
+        text-decoration: underline;
+        color: blue
+    }
+}
+
+.selectLocationPage {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+
+}
+
+
+.warningPage {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    height: 85vh;
+
+    h3 {
+        margin-top: 5em;
+    }
+}
+.photoScroller {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(242,242,242);
+    overflow-x: scroll;
+    scroll-padding: 0 16px 0 16px;
+}
+
+// display: 'flex',   width: '100%',   flexDirection: 'row', alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgb(242,242,242)'
+.previewImage {
+    display: block;
+    max-width:460px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+    margin: 16px;
+}

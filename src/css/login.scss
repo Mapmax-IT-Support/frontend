@@ -1,0 +1,59 @@
+.loginPage {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+    h1 {
+        margin: 1em;
+    }
+}
+
+.loginFormContainer {
+    border: 1px solid $darkBg;
+    border-radius: 8px;
+    background-color: rgba(225,225,225, 0.7);
+    padding: 1.5em;
+}
+
+.formLabels {
+    float: left;
+    color: $darkBg;
+}
+
+.errorText {
+    font-size: 16px;
+    color: red;
+}
+
+.submitContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+}
+
+.forgotPassword {
+    font-size: 16px;
+    float: left;
+}
+
+.bottomText {
+    font-size: 20px;
+    color: $darkBg;
+}
+
+.bottomTextWhite {
+    font-size: 20px;
+    color: white;
+}
+
+.bottomLink {
+    font-size: 20px;
+}
+
+.checkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

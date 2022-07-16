@@ -1,0 +1,176 @@
+$mobile: 550px;
+$desktop: 551px;
+
+.listingPage {
+    width: 100%;
+    height: 100%;
+}
+
+.listingContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31,33,48);
+}
+
+.listingLoadingContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listingAddressText {
+    color: white;
+    text-decoration-line: underline;
+    text-align: left;
+    
+    @media screen and (max-width: $mobile) {
+        font-size: 1rem;
+    }
+}
+
+.listingMediaContainer {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    padding: 0.25em 0;
+
+    @media screen and (max-width: $mobile) {
+        flex-direction: column;
+    }
+}
+
+.listingMapContainer {
+    height: 400px;
+    width: 39.25%;
+}
+
+#blurImage {
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+}
+
+#noBlur {
+    -webkit-filter: blur(0px); 
+    filter: blur(0px);
+}
+
+.listingHeader {
+    padding: 1em 0 0.5em 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(31,33,48);
+    border-bottom: 1px solid rgba(250,250,250,0.5);
+}
+
+.listingDataTable {
+    table-layout: fixed;
+    font-size: 18px;
+    border-top: 2px solid rgba(250,250,250,0.5);
+    text-align: left;
+}
+
+.listingTableHeader {
+     text-align : left; 
+     margin-left: '0.45em';
+     font-size: '22px'; 
+     font-weight: bold;
+     color: 'white';
+}
+
+.tableValue {
+    font-weight: bold;
+    width: 65%;
+}
+
+.contact_info_panel {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5%;
+
+    h3 {
+        margin: 0.5em 0;
+        color: white;
+    }
+
+    @media screen and (min-width: $desktop) {
+        align-items: center;
+        border-left: 1px solid rgba(250,250,250,0.5); 
+        
+        h3 {
+            text-align: left;
+            margin: 0.5em 0;
+            color: white;
+        }
+    }
+}
+
+.listingCard:hover {
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+.listingCard {
+    opacity: 1;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.listingCardImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68%;
+    background-color: black;
+}
+
+#previewHeader {
+    border-bottom: 1px solid rgba(250,250,250,0.5);
+}
+
+.listingViewBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid rgba(250,250,250,0.5);
+
+    @media screen and (max-width: $mobile) {
+        flex-direction: column;
+    }
+}
+.listingItem {
+    border-bottom: 1px solid rgba(250,250,250,0.5);;
+    border-top: 1px solid rgba(250,250,250,0.5);;
+}
+
+.contactPhoto {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+ //   border-radius: 50%;
+}
+
+.slideShowImgContainer {
+    background-color: black;
+}
+
+.listingImage {
+    display: block;
+    max-width:1200px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}

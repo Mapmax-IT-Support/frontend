@@ -1,0 +1,85 @@
+.lookup-form-block {
+    color: black;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    width: 92.5%;
+    max-width: 90vh;
+  }
+
+  .errorMessage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      div {
+          color: red;
+          font-size: 2vh;
+      }
+  }
+
+  .disclaimerContainer {
+      background-color: rgba(1,1,1,0.6);
+      margin: 4em 0 0 0; 
+      width: 90%;
+  }
+
+  .howToContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: whitesmoke;
+
+    span {
+        margin-right: .5em;
+    }
+  }
+
+  .addressText {
+      flex: 1;
+      color: whitesmoke;
+      text-align: left;
+  }
+
+  .searchHeader {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+
+    h3 {
+        color: whitesmoke;
+    }
+  }
+
+  .searchContainer {
+      width: 100%;
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .searchGo {
+      width: 100%;
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+
+  }
+
+  .autoCompleteContainer {
+      flex: 1;
+      z-index: 1000;
+      width: 100%;
+      
+  }

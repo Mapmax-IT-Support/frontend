@@ -1,0 +1,88 @@
+.aboutContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1,1,1,0.55);
+    color: white;
+}
+
+.introContainer {
+    flex: 1;
+    padding: 2em;
+
+    h1 {
+        font-weight: bold; 
+        font-size: 52px;
+        color: whitesmoke;
+    }
+    p {
+        padding: 1em;
+    }
+}
+
+.splitContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.splitCell {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 300px;
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        padding: 1em 2em 1em 2em;
+    }
+}
+
+.iconContainer {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31,33,48);
+}
+
+.infoPanel {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1em;
+
+    h3 {
+        color: whitesmoke;
+    }
+
+    div {
+        flex: 1;
+        padding: 0.5em;
+    }
+
+    p {
+        color: whitesmoke;
+        padding: 1em .5em 1em .5em;
+    }
+}
+
+
+// {
+//     flex: 1,
+//     backgroundImage: `url(${woman})`,
+//     backgroundRepeat: 'no-repeat',
+//     backgroundSize: '100%', 
+//     opacity: '1',
+//     }
+// { backgroundColor: 'whitesmoke', flex: 1, display: 'flex', flexDirection: 'row'}

@@ -1,0 +1,111 @@
+.navBar {
+   
+   background-color: #021d6e;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.autocompleteContainer {
+    display: flex;
+    z-index: 1000;    
+    background-color: red;
+}
+
+.autocompleteInput {
+    border-radius: 8px;
+    background-color: blue;
+}
+
+.autocomplete-dropdown-container {
+    position: absolute;
+}
+
+@media (min-width: 551px) {
+    .navBar_search {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        z-index: 1000;
+        width: 50%;
+    
+        div {
+            width: 500px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            margin-right: .5em;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .navBar_search {
+        display: flex;
+        flex-direction: row;
+        z-index: 99999999;
+        width: 75%;
+        height: 50px;
+        align-items: center;
+    
+        div {
+            width: 80%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            margin-right: .5em;
+            z-index: 99999999;
+        }
+    }
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fluid_image_logoContainer {
+    width: 30px;
+    height: 100%;
+}
+
+.fluid_image_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.logoLinkText {
+    color: whitesmoke;
+    font-weight: bold;
+    stroke: black;
+    stroke-width: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+// style={{ flex: 1, display : 'flex', alignItems: 'center', justifyContent: 'center', width: '25%'}}
+
+.go_button {
+    background-color:#00d4ff;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: .1em;
+}
+
+
+.user_tools {
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+}
+
+.dropDownIconContainer {
+}
+
+#mobileDropdown {
+    border-radius: 0;
+    background-color: transparent;
+    border-color: transparent;
+}

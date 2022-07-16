@@ -1,0 +1,30 @@
+@import 'variables.scss';
+@import 'App.scss';
+@import 'login.scss';
+@import 'listingView.scss';
+@import 'navigation.scss';
+@import 'about.scss';
+@import 'lookUpForm.scss';
+@import 'mobileMap.scss';
+@import 'map.scss';
+@import 'chartPanel.scss';
+@import 'home.scss';
+@import 'transportation.scss';
+@import 'addListing/form.scss';
+@import 'addListing/page.scss';
+@import 'profile/index.scss';
+@import 'shareModal.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
