@@ -1,8 +1,8 @@
-export const API ='https://mapmax-it-support.github.io/backend/'
-export const URL = 'https://mapmax-it-support.github.io/'
+//export const API ='https://mapmax-it-support.github.io/'
+//export const URL = 'https://mapmax-it-support.github.io/'
 
-//export const API = 'http://localhost:8080/'
-//export const URL = 'http://localhost:3000/#'
+export const API = 'http://localhost:8080/'
+export const URL = 'http://localhost:3000/#'
 
 
 export const GOOGLE_KEY = 'AIzaSyC9E4iWpRUJxljL3sHTiciL--ukdb_ByrI'
