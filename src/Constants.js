@@ -1,5 +1,5 @@
 export const API ='https://mapmax-it-support.github.io/backend/'
-export const URL = 'https://mapmax-it-support.github.io/frontend/'
+export const URL = 'https://mapmax-it-support.github.io/'
 
 //export const API = 'http://localhost:8080/'
 //export const URL = 'http://localhost:3000/#'
