@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b504345.css",
-    "main.js": "/static/js/main.d49bd837.js",
-    "static/media/NYC-Image.png": "/static/media/NYC-Image.4a9b0b6fefa984b2013b.png",
-    "static/media/subway_map.jpg": "/static/media/subway_map.794263b10656487b1576.jpg",
-    "static/media/white_sample.png": "/static/media/white_sample.01c6925d10ce51dba377.png",
-    "static/media/subway.png": "/static/media/subway.fdc9bb3078ca25c4381d.png",
-    "static/media/landmark_logo_full_white.png": "/static/media/landmark_logo_full_white.238ed712f0f021fd3a79.png",
-    "static/media/UploadIcon.svg": "/static/media/UploadIcon.469126df4127e870c21611e576b85d00.svg",
-    "index.html": "/index.html",
-    "main.7b504345.css.map": "/static/css/main.7b504345.css.map",
-    "main.d49bd837.js.map": "/static/js/main.d49bd837.js.map"
+    "main.css": "/frontend/static/css/main.3156e312.css",
+    "main.js": "/frontend/static/js/main.9a9ffec8.js",
+    "static/media/NYC-Image.png": "/frontend/static/media/NYC-Image.4a9b0b6fefa984b2013b.png",
+    "static/media/subway_map.jpg": "/frontend/static/media/subway_map.794263b10656487b1576.jpg",
+    "static/media/white_sample.png": "/frontend/static/media/white_sample.01c6925d10ce51dba377.png",
+    "static/media/subway.png": "/frontend/static/media/subway.fdc9bb3078ca25c4381d.png",
+    "static/media/landmark_logo_full_white.png": "/frontend/static/media/landmark_logo_full_white.238ed712f0f021fd3a79.png",
+    "static/media/UploadIcon.svg": "/frontend/static/media/UploadIcon.469126df4127e870c21611e576b85d00.svg",
+    "index.html": "/frontend/index.html",
+    "main.3156e312.css.map": "/frontend/static/css/main.3156e312.css.map",
+    "main.9a9ffec8.js.map": "/frontend/static/js/main.9a9ffec8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b504345.css",
-    "static/js/main.d49bd837.js"
+    "static/css/main.3156e312.css",
+    "static/js/main.9a9ffec8.js"
   ]
 }
